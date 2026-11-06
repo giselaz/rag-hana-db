@@ -1,0 +1,24 @@
+@server = http://localhost:4004
+### Setup DB vectors
+POST {{server}}/setup
+
+### 1. Ingest: embed all documents -> returns number embedded
+POST {{server}}/ingest
+Content-Type: application/json
+
+{}
+
+### 2. Retrieve only: look at the scores
+GET {{server}}/search?q=my account is locked
+
+### 3. Grounded answer
+POST {{server}}/ask
+Content-Type: application/json
+
+{ "question": "How long does a new laptop take?" }
+
+### 4. Out-of-scope question -> should NOT hallucinate
+POST {{server}}/ask
+Content-Type: application/json
+
+{ "question": "How is the weather today?" }

@@ -1,0 +1,14 @@
+{
+  "name": "hana-rag",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "local": "node --env-file=.env server.js"
+  },
+  "dependencies": {
+    "@sap-ai-sdk/orchestration": "^2",
+    "@sap/hana-client": "^2",
+    "express": "^5"
+  }
+}

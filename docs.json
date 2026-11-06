@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Resetting your password",
+    "category": "accounts",
+    "content": "If you forgot your password, open the self-service portal at password.company.local and click 'Forgot password'. You will receive a one-time code by SMS to the phone number stored in your HR profile.\n\nPasswords must be at least 12 characters and include a number and a special character. They expire every 90 days, and you cannot reuse your last 5 passwords.\n\nIf your account is locked after 5 failed attempts, wait 15 minutes or call the Service Desk on extension 4000 to unlock it immediately."
+  },
+  {
+    "title": "Connecting to the VPN",
+    "category": "network",
+    "content": "Install the GlobalConnect client from the Software Center. Use vpn.company.local as the portal address and sign in with your normal company credentials plus the authenticator app.\n\nIf the client shows 'Gateway unreachable', check that your home internet works and that you are not on a guest Wi-Fi that blocks VPN traffic. Restarting the client solves most connection drops.\n\nThe VPN disconnects automatically after 12 hours. Reconnect to continue working."
+  },
+  {
+    "title": "Requesting new hardware",
+    "category": "hardware",
+    "content": "Laptops, monitors and headsets are requested through the IT catalog under 'Hardware Request'. Your manager must approve the request before IT orders the device.\n\nStandard laptops are delivered within 5 working days. Non-standard models need a business justification and can take up to 3 weeks.\n\nBroken devices are replaced, not repaired on site. Bring the broken device to the IT desk on floor 2 when you collect the replacement."
+  },
+  {
+    "title": "Email and calendar problems",
+    "category": "software",
+    "content": "If Outlook does not receive new emails, check the status bar for 'Working offline' and switch it off under Send/Receive. Large mailboxes over 50 GB stop syncing; archive old emails to fix this.\n\nShared mailboxes are requested through the IT catalog. The mailbox owner must approve each new member.\n\nMeeting rooms are booked by adding the room as an attendee in your calendar invitation."
+  },
+  {
+    "title": "Reporting a security incident",
+    "category": "security",
+    "content": "If you clicked a suspicious link or opened an unexpected attachment, disconnect your device from the network immediately and call the Security hotline on extension 4999, available 24/7.\n\nForward phishing emails to phishing@company.local as an attachment, then delete them. Do not reply to the sender.\n\nLost or stolen laptops and phones must be reported within 1 hour so IT can wipe the device remotely."
+  },
+  {
+    "title": "Installing software",
+    "category": "software",
+    "content": "Approved software is installed from the Software Center without admin rights. Search for the application name and click Install.\n\nSoftware that is not in the Software Center must be requested through the IT catalog. The security team reviews every new application, which takes about 3 working days.\n\nPersonal software, games and browser extensions from unknown publishers are not allowed on company devices."
+  }
+]
